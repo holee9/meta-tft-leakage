@@ -1,0 +1,26 @@
+# Yocto build artifacts
+build/
+tmp/
+cache/
+downloads/
+sstate-cache/
+
+# Bitbake artifacts
+*.patch.*
+*.sig
+*.done
+*.log.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor files
+*~
+*.swp
+.*.swp
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
