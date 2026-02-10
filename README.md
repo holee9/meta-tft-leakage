@@ -94,6 +94,28 @@ ecspi1: spi@30830000 {
 
 MIT License - [LICENSE](LICENSE)
 
+## 문서
+
+### 배포 패키지
+
+| 문서 | 설명 |
+|------|------|
+| [README.md](docs/delivery/README.md) | 배포 패키지 개요 |
+| [00_project_overview.md](docs/delivery/00_project_overview.md) | 프로젝트 개요 및 시스템 역할 |
+| [01_platform_specifications.md](docs/delivery/01_platform_specifications.md) | i.MX8MP 플랫폼 사양 |
+| [02_spi_driver_requirements.md](docs/delivery/02_spi_driver_requirements.md) | SPI 드라이버 요구사항 |
+| [03_device_tree_configuration.md](docs/delivery/03_device_tree_configuration.md) | Device Tree 설정 |
+| [04_kernel_config.md](docs/delivery/04_kernel_config.md) | 커널 설정 |
+| [05_userspace_interface.md](docs/delivery/05_userspace_interface.md) | 유저스페이스 인터페이스 |
+| [06_temperature_monitoring.md](docs/delivery/06_temperature_monitoring.md) | 온도 모니터링 |
+| [07_ethernet_communication.md](docs/delivery/07_ethernet_communication.md) | Ethernet 통신 |
+| [08_acceptance_criteria.md](docs/delivery/08_acceptance_criteria.md) | 인수 기준 |
+| [reference/](docs/delivery/reference/) | 참고 문서 (Arrhenius 모델 등) |
+
+### 요약 사양
+
+- [docs/spec.md](docs/spec.md) - 간단 사양 요약
+
 ## 관련 프로젝트
 
 - [tft-panel-fpga](https://github.com/holee9/tft-panel-fpga) - FPGA RTL
